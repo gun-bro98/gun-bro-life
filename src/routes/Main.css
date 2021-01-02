@@ -1,0 +1,30 @@
+:root {
+  /* font size */
+  --middle-size: 15px;
+  --small-size: 9px;
+  --big-size: 21px;
+  --title-size: 60px;
+  /* interval-size */
+  --i-middle-size: 9px;
+  --i-small-size: 12px;
+  --i-big-size: 15px;
+  /* color */
+  --body-color: rgb(240, 240, 240);
+  --black-color: black;
+  --active-color: rgb(0, 180, 160);
+  --title-color: rgb(30, 90, 20);
+  --disabled-color: rgb(210, 210, 210);
+  --assistant-info-color: rgb(180, 180, 180);
+  --font-box-color: rgb(235, 255, 230);
+}
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main .router-container {
+  width: 1000px;
+  height: 400px;
+  margin: var(--i-big-size);
+  border: 1px solid var(--assistant-info-color);
+}

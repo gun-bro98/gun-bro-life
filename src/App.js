@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React from "react";
+import axios from "axios";
+import { HashRouter, Route } from "react-router-dom";
+import Homeheader from "./routes/home-header";
+import Navigation from "./components/Navigation";
+import Mainheader from "./routes/main-header";
+import Main from "./routes/Main";
+import Footer from "./components/Footer";
+import "./App.css";
+class App extends React.Component {
+  render() {
+    return (
+      <HashRouter>
+        <Route path="/" exact={true} component={Homeheader} />
+        <Route path="/main" component={Mainheader} />
+        <Navigation />
+        <Route path="/main" component={Main} />
+        <Footer />
+      </HashRouter>
+    );
+  }
 }
 
 export default App;
