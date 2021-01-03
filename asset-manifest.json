@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/seeing-finde-dust/static/css/main.d6b80963.chunk.css",
+    "main.js": "/seeing-finde-dust/static/js/main.b4be9115.chunk.js",
+    "main.js.map": "/seeing-finde-dust/static/js/main.b4be9115.chunk.js.map",
+    "runtime-main.js": "/seeing-finde-dust/static/js/runtime-main.cb9c9b46.js",
+    "runtime-main.js.map": "/seeing-finde-dust/static/js/runtime-main.cb9c9b46.js.map",
+    "static/js/2.8bda044c.chunk.js": "/seeing-finde-dust/static/js/2.8bda044c.chunk.js",
+    "static/js/2.8bda044c.chunk.js.map": "/seeing-finde-dust/static/js/2.8bda044c.chunk.js.map",
+    "index.html": "/seeing-finde-dust/index.html",
+    "static/css/main.d6b80963.chunk.css.map": "/seeing-finde-dust/static/css/main.d6b80963.chunk.css.map",
+    "static/js/2.8bda044c.chunk.js.LICENSE.txt": "/seeing-finde-dust/static/js/2.8bda044c.chunk.js.LICENSE.txt",
+    "static/media/css3.554b21bd.png": "/seeing-finde-dust/static/media/css3.554b21bd.png",
+    "static/media/dust1.4d44fc94.jpg": "/seeing-finde-dust/static/media/dust1.4d44fc94.jpg",
+    "static/media/dust2.9a155adf.jpg": "/seeing-finde-dust/static/media/dust2.9a155adf.jpg",
+    "static/media/html.29442895.jpg": "/seeing-finde-dust/static/media/html.29442895.jpg",
+    "static/media/javascript.a936d6e1.png": "/seeing-finde-dust/static/media/javascript.a936d6e1.png",
+    "static/media/react.06fec591.png": "/seeing-finde-dust/static/media/react.06fec591.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb9c9b46.js",
+    "static/js/2.8bda044c.chunk.js",
+    "static/css/main.d6b80963.chunk.css",
+    "static/js/main.b4be9115.chunk.js"
+  ]
+}
