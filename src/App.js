@@ -1,5 +1,4 @@
 import React from "react";
-import axios from "axios";
 import { HashRouter, Route } from "react-router-dom";
 import Homeheader from "./routes/home-header";
 import Navigation from "./components/Navigation";
