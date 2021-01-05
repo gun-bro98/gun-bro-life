@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 function Homeheader() {
   return (
     <header className="home-header">
-      <Link to="/">Fine Dust</Link>
+      <Link to="/main">GBM</Link>
+      <h2>우리들의 기억</h2>
     </header>
   );
 }

@@ -24,11 +24,15 @@ main {
 }
 main .router-container {
   width: 1000px;
-  height: 400px;
+  height: 80%;
   margin: var(--i-big-size);
   border: 1px solid var(--font-box-color);
   background-color: var(--font-box-color);
   border-radius: 10px;
+}
+/* loader-block */
+main .loader-block {
+  margin-top: 120px;
 }
 /* Home.js */
 main .router-container .home {

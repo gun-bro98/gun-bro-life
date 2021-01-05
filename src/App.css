@@ -30,17 +30,34 @@ body {
   background-color: var(--body-color);
 }
 /* navigation */
+/* navigation-off */
+.offNav {
+  position: fixed;
+  right: 10px;
+  top: 20px;
+}
+.offNav .menuButton {
+  width: 30px;
+  height: 30px;
+}
+.offNav .menuButton i {
+  font-size: 20px;
+}
+/*navigation-on */
 nav {
   width: 100%;
+  position: fixed;
+  top: 1px;
 }
 nav ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
   max-width: 900px;
+  height: 300px;
   margin: 0 auto;
-  background-color: var(--font-box-color);
-  border-radius: 15px;
+  background-color: rgb(235, 255, 230, 0.98);
+  border-radius: 0 0 15px 15px;
 }
 nav ul li {
   padding: var(--i-middle-size);
@@ -51,12 +68,19 @@ nav ul li a {
 nav ul li a:hover {
   color: var(--active-color);
 }
+nav ul .closeButton {
+  position: absolute;
+  bottom: 0;
+}
+nav ul .closeButton i {
+  font-size: var(--big-size);
+}
 /* footer */
 footer {
   position: absolute;
   bottom: 0px;
   width: 100%;
-  display: flex;
+  display: none;
 }
 footer span {
   margin: var(--middle-size) auto;

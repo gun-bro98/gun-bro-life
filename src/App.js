@@ -1,7 +1,7 @@
 import React from "react";
 import { HashRouter, Route } from "react-router-dom";
 import Homeheader from "./routes/home-header";
-import Navigation from "./components/Navigation";
+import Navigation from "./routes/Navigation";
 import Mainheader from "./routes/main-header";
 import Main from "./routes/Main";
 import Footer from "./components/Footer";
@@ -11,9 +11,11 @@ class App extends React.Component {
     return (
       <HashRouter>
         <Route path="/" exact={true} component={Homeheader} />
-        <Route path="/main" component={Mainheader} />
-        <Navigation />
-        <Route path="/main" component={Main} />
+        <Route path="/main">
+          <Mainheader />
+          <Navigation />
+          <Main />
+        </Route>
         <Footer />
       </HashRouter>
     );
