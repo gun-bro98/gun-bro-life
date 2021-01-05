@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gun-bro-life/static/css/main.3a95c106.chunk.css",
-    "main.js": "/gun-bro-life/static/js/main.a90b21e4.chunk.js",
-    "main.js.map": "/gun-bro-life/static/js/main.a90b21e4.chunk.js.map",
+    "main.js": "/gun-bro-life/static/js/main.952c899c.chunk.js",
+    "main.js.map": "/gun-bro-life/static/js/main.952c899c.chunk.js.map",
     "runtime-main.js": "/gun-bro-life/static/js/runtime-main.082d4bea.js",
     "runtime-main.js.map": "/gun-bro-life/static/js/runtime-main.082d4bea.js.map",
     "static/js/2.758a731b.chunk.js": "/gun-bro-life/static/js/2.758a731b.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.082d4bea.js",
     "static/js/2.758a731b.chunk.js",
     "static/css/main.3a95c106.chunk.css",
-    "static/js/main.a90b21e4.chunk.js"
+    "static/js/main.952c899c.chunk.js"
   ]
 }
