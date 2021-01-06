@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/gun-bro-life/static/css/main.3a95c106.chunk.css",
-    "main.js": "/gun-bro-life/static/js/main.952c899c.chunk.js",
-    "main.js.map": "/gun-bro-life/static/js/main.952c899c.chunk.js.map",
+    "main.css": "/gun-bro-life/static/css/main.2f07702b.chunk.css",
+    "main.js": "/gun-bro-life/static/js/main.98b69812.chunk.js",
+    "main.js.map": "/gun-bro-life/static/js/main.98b69812.chunk.js.map",
     "runtime-main.js": "/gun-bro-life/static/js/runtime-main.082d4bea.js",
     "runtime-main.js.map": "/gun-bro-life/static/js/runtime-main.082d4bea.js.map",
-    "static/js/2.758a731b.chunk.js": "/gun-bro-life/static/js/2.758a731b.chunk.js",
-    "static/js/2.758a731b.chunk.js.map": "/gun-bro-life/static/js/2.758a731b.chunk.js.map",
+    "static/js/2.a4a1e383.chunk.js": "/gun-bro-life/static/js/2.a4a1e383.chunk.js",
+    "static/js/2.a4a1e383.chunk.js.map": "/gun-bro-life/static/js/2.a4a1e383.chunk.js.map",
     "index.html": "/gun-bro-life/index.html",
-    "static/css/main.3a95c106.chunk.css.map": "/gun-bro-life/static/css/main.3a95c106.chunk.css.map",
-    "static/js/2.758a731b.chunk.js.LICENSE.txt": "/gun-bro-life/static/js/2.758a731b.chunk.js.LICENSE.txt",
+    "static/css/main.2f07702b.chunk.css.map": "/gun-bro-life/static/css/main.2f07702b.chunk.css.map",
+    "static/js/2.a4a1e383.chunk.js.LICENSE.txt": "/gun-bro-life/static/js/2.a4a1e383.chunk.js.LICENSE.txt",
+    "static/media/2021년1월1-1.633ae23c.jpg": "/gun-bro-life/static/media/2021년1월1-1.633ae23c.jpg",
+    "static/media/2021년1월1-2.e30dec69.jpg": "/gun-bro-life/static/media/2021년1월1-2.e30dec69.jpg",
+    "static/media/2021년1월1-3.29a82480.jpg": "/gun-bro-life/static/media/2021년1월1-3.29a82480.jpg",
+    "static/media/2021년1월1-4.c55c1360.jpg": "/gun-bro-life/static/media/2021년1월1-4.c55c1360.jpg",
     "static/media/css3.554b21bd.png": "/gun-bro-life/static/media/css3.554b21bd.png",
-    "static/media/dust1.4d44fc94.jpg": "/gun-bro-life/static/media/dust1.4d44fc94.jpg",
-    "static/media/dust2.9a155adf.jpg": "/gun-bro-life/static/media/dust2.9a155adf.jpg",
     "static/media/html.29442895.jpg": "/gun-bro-life/static/media/html.29442895.jpg",
     "static/media/javascript.a936d6e1.png": "/gun-bro-life/static/media/javascript.a936d6e1.png",
     "static/media/react.06fec591.png": "/gun-bro-life/static/media/react.06fec591.png"
   },
   "entrypoints": [
     "static/js/runtime-main.082d4bea.js",
-    "static/js/2.758a731b.chunk.js",
-    "static/css/main.3a95c106.chunk.css",
-    "static/js/main.952c899c.chunk.js"
+    "static/js/2.a4a1e383.chunk.js",
+    "static/css/main.2f07702b.chunk.css",
+    "static/js/main.98b69812.chunk.js"
   ]
 }
