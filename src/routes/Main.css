@@ -30,20 +30,18 @@ main .router-container {
   background-color: var(--font-box-color);
   border-radius: 10px;
 }
-/* loader-block */
-main .loader-block {
-  margin-top: 120px;
-}
 /* Home.js */
 main .router-container .home {
   width: 100%;
-  display: flex;
+  height: 800px;
+  overflow: scroll;
 }
 main .router-container .home .image-container {
-  width: 45%;
-  margin: 5%;
+  width: 50%;
+  margin: 10% 0 0 25%;
   overflow: hidden;
   border-radius: 5%;
+  height: 45%;
 }
 main .router-container .home .image-container img {
   width: 100%;

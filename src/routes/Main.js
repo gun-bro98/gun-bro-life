@@ -3,7 +3,7 @@ import PropTypeS from "prop-types";
 import { HashRouter, Route } from "react-router-dom";
 import Home from "./Home";
 import Introduce from "./Introduce";
-import Seeingfinedust from "./seeingFineDust";
+import image2015 from "./image2015";
 import "./Main.css";
 import axios from "axios";
 class Main extends React.Component {
@@ -14,7 +14,7 @@ class Main extends React.Component {
           <HashRouter>
             <Route path="/main" exact={true} component={Home} />
             <Route path="/main/introduce" component={Introduce} />
-            <Route path="/main/seeing-fine-dust" component={Seeingfinedust} />
+            <Route path="/main/2013" component={image2015} />
           </HashRouter>
         </div>
       </main>
