@@ -1,0 +1,56 @@
+:root {
+  /* font size */
+  --middle-size: 15px;
+  --small-size: 9px;
+  --big-size: 21px;
+  --title-size: 60px;
+  /* interval-size */
+  --i-middle-size: 9px;
+  --i-small-size: 12px;
+  --i-big-size: 15px;
+  /* color */
+  --body-color: rgb(240, 240, 240);
+  --black-color: black;
+  --active-color: rgb(0, 180, 160);
+  --title-color: rgb(30, 90, 20);
+  --disabled-color: rgb(210, 210, 210);
+  --assistant-info-color: rgb(180, 180, 180);
+  --font-box-color: rgb(235, 255, 230);
+}
+/* 2015 */
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main .router-container {
+  width: 1000px;
+  height: 80%;
+  margin: var(--i-big-size);
+  border: 1px solid var(--font-box-color);
+  background-color: var(--font-box-color);
+  border-radius: 10px;
+}
+main .router-container h1 {
+  text-align: center;
+  font-size: 35px;
+}
+main .router-container .container-2013 {
+  width: 100%;
+  height: 800px;
+  overflow: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+main .router-container .container-2013 .image-container {
+  width: 40%;
+  margin: 1%;
+  overflow: hidden;
+  border-radius: 5%;
+}
+
+main .router-container .container-2013 .image-container img {
+  width: 100%;
+  height: 100%;
+}

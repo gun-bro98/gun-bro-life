@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Mainheader() {
   return (
     <header className="main-header">
-      <Link to="main">GBM</Link>
+      <Link to="/">GBM</Link>
     </header>
   );
 }

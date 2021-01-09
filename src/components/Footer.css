@@ -17,15 +17,13 @@
   --assistant-info-color: rgb(180, 180, 180);
   --font-box-color: rgb(235, 255, 230);
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* footer */
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: none;
 }
-a {
-  text-decoration: none;
-  color: black;
-}
-body {
-  background-color: var(--body-color);
+footer span {
+  margin: var(--middle-size) auto;
 }

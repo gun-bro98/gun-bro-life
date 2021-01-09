@@ -17,6 +17,7 @@
   --assistant-info-color: rgb(180, 180, 180);
   --font-box-color: rgb(235, 255, 230);
 }
+/* introduce.js */
 main {
   width: 100%;
   display: flex;
@@ -30,24 +31,6 @@ main .router-container {
   background-color: var(--font-box-color);
   border-radius: 10px;
 }
-/* Home.js */
-main .router-container .home {
-  width: 100%;
-  height: 800px;
-  overflow: scroll;
-}
-main .router-container .home .image-container {
-  width: 50%;
-  margin: 10% 0 0 25%;
-  overflow: hidden;
-  border-radius: 5%;
-  height: 45%;
-}
-main .router-container .home .image-container img {
-  width: 100%;
-  height: 100%;
-}
-/* introduce.js */
 main .router-container .introduce {
   width: 100%;
   padding: var(--i-middle-size);

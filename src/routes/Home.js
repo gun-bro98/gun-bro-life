@@ -3,7 +3,7 @@ import img1 from "../assets/2021년1월1-1.jpg";
 import img2 from "../assets/2021년1월1-2.jpg";
 import img3 from "../assets/2021년1월1-3.jpg";
 import img4 from "../assets/2021년1월1-4.jpg";
-
+import "./Home.css";
 class Home extends React.Component {
   state = {
     bestImages: [
@@ -22,13 +22,21 @@ class Home extends React.Component {
   render() {
     const { bestImages } = this.state;
     return (
-      <section className="home">
-        {bestImages.map((content) => (
-          <div key={content.id} className="image-container">
-            <img src={content.image} alt={content.name} title={content.name} />
-          </div>
-        ))}
-      </section>
+      <main>
+        <div className="router-container">
+          <section className="home">
+            {bestImages.map((content) => (
+              <div key={content.id} className="image-container">
+                <img
+                  src={content.image}
+                  alt={content.name}
+                  title={content.name}
+                />
+              </div>
+            ))}
+          </section>
+        </div>
+      </main>
     );
   }
 }
