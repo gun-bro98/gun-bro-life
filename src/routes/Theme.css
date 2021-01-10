@@ -33,9 +33,10 @@ main .router-container {
 }
 main .router-container h1 {
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
+  margin: var(--i-middle-size);
 }
-main .router-container .container-2013 {
+main .router-container .container-years {
   width: 100%;
   height: 800px;
   overflow: scroll;
@@ -43,14 +44,14 @@ main .router-container .container-2013 {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-main .router-container .container-2013 .image-container {
+main .router-container .container-years .image-container {
   width: 40%;
   margin: 1%;
   overflow: hidden;
   border-radius: 5%;
 }
 
-main .router-container .container-2013 .image-container img {
+main .router-container .container-years .image-container img {
   width: 100%;
   height: 100%;
 }
