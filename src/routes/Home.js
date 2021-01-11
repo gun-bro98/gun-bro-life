@@ -1,4 +1,5 @@
 import React from "react";
+import img0 from "../assets/2017베스트사진.jpg";
 import img1 from "../assets/2021년1월1-1.jpg";
 import img2 from "../assets/2021년1월1-2.jpg";
 import img3 from "../assets/2021년1월1-3.jpg";
@@ -7,6 +8,7 @@ import "./Home.css";
 class Home extends React.Component {
   state = {
     bestImages: [
+      { id: 0, image: img0, name: "좋았다 2017" },
       { id: 1, image: img1, name: "존잘들" },
       { id: 2, image: img2, name: "거의 스위스1" },
       { id: 3, image: img3, name: "거의 스위스2" },

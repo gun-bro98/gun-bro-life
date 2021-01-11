@@ -1,10 +1,7 @@
 import React from "react";
-import PropTypes from "prop-types";
+import Image from "../components/Image";
 import "./Theme.css";
 class Theme extends React.Component {
-  state = {
-    isModal: false,
-  };
   componentDidMount() {
     const { location, history } = this.props;
     if (location.state === undefined) {
@@ -38,7 +35,6 @@ class Theme extends React.Component {
     const {
       location: { state },
     } = this.props;
-    const { isModal } = this.state;
     if (state) {
       const { bestImages } = state;
       return (
@@ -48,13 +44,11 @@ class Theme extends React.Component {
               <h1>{state.theme}</h1>
               <div className="container-years">
                 {bestImages.map((content) => (
-                  <div key={content.id} className="image-container">
-                    <img
-                      src={content.image}
-                      alt={content.name}
-                      title={content.name}
-                    />
-                  </div>
+                  <Image
+                    key={content.id}
+                    image={content.image}
+                    name={content.image}
+                  />
                 ))}
               </div>
             </section>

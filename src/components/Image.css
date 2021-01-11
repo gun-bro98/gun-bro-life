@@ -1,0 +1,62 @@
+:root {
+  /* font size */
+  --middle-size: 15px;
+  --small-size: 9px;
+  --big-size: 21px;
+  --title-size: 60px;
+  /* interval-size */
+  --i-middle-size: 9px;
+  --i-small-size: 12px;
+  --i-big-size: 15px;
+  /* color */
+  --body-color: rgb(240, 240, 240);
+  --black-color: black;
+  --active-color: rgb(0, 180, 160);
+  --title-color: rgb(30, 90, 20);
+  --disabled-color: rgb(210, 210, 210);
+  --assistant-info-color: rgb(180, 180, 180);
+  --font-box-color: rgb(235, 255, 230);
+}
+main .router-container .container-years .image-container {
+  width: 40%;
+  margin: 1%;
+  overflow: hidden;
+  border-radius: 5%;
+}
+
+main .router-container .container-years .image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+main .router-container .container-years .image-container .modal {
+  position: absolute;
+  left: 0;
+  top: 20%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px 0px 5px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main
+  .router-container
+  .container-years
+  .image-container
+  .modal
+  .inside-content {
+  width: 100%;
+  height: 100%;
+}
+main
+  .router-container
+  .container-years
+  .image-container
+  .modal
+  .inside-content
+  img {
+  width: 100%;
+  height: 100%;
+}
