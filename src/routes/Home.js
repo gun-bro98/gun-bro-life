@@ -28,12 +28,14 @@ class Home extends React.Component {
         <div className="router-container">
           <section className="home">
             {bestImages.map((content) => (
-              <div key={content.id} className="image-container">
-                <img
-                  src={content.image}
-                  alt={content.name}
-                  title={content.name}
-                />
+              <div key={content.id} className="saving-image">
+                <div className="image-container">
+                  <img
+                    src={content.image}
+                    alt={content.name}
+                    title={content.name}
+                  />
+                </div>
               </div>
             ))}
           </section>

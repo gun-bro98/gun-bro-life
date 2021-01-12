@@ -16,13 +16,10 @@ class Image extends React.Component {
     return (
       <div className="image-container">
         {isModal ? (
-          <div className="modal">
+          <div className="modal" onClick={this.clickClose}>
             <div className="inside-content">
               <img src={image} alt={name} title={name} />
             </div>
-            <button onClick={this.clickClose}>
-              <i className="fas fa-times"></i>
-            </button>
           </div>
         ) : (
           <img onClick={this.clickImage} src={image} alt={name} title={name} />

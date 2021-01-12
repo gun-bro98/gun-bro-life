@@ -51,6 +51,7 @@ nav ul {
   margin: 0 auto;
   background-color: rgb(235, 255, 230, 0.98);
   border-radius: 0 0 15px 15px;
+  font-family: "Noto Sans KR", sans-serif;
 }
 nav ul li {
   padding: var(--i-middle-size);
