@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gun-bro-life/static/css/main.efff14f4.chunk.css",
+    "main.css": "/gun-bro-life/static/css/main.d8bcc32a.chunk.css",
     "main.js": "/gun-bro-life/static/js/main.0393ceb3.chunk.js",
     "main.js.map": "/gun-bro-life/static/js/main.0393ceb3.chunk.js.map",
     "runtime-main.js": "/gun-bro-life/static/js/runtime-main.082d4bea.js",
@@ -8,7 +8,7 @@
     "static/js/2.97a41a28.chunk.js": "/gun-bro-life/static/js/2.97a41a28.chunk.js",
     "static/js/2.97a41a28.chunk.js.map": "/gun-bro-life/static/js/2.97a41a28.chunk.js.map",
     "index.html": "/gun-bro-life/index.html",
-    "static/css/main.efff14f4.chunk.css.map": "/gun-bro-life/static/css/main.efff14f4.chunk.css.map",
+    "static/css/main.d8bcc32a.chunk.css.map": "/gun-bro-life/static/css/main.d8bcc32a.chunk.css.map",
     "static/js/2.97a41a28.chunk.js.LICENSE.txt": "/gun-bro-life/static/js/2.97a41a28.chunk.js.LICENSE.txt",
     "static/media/2017베스트사진.93dfb265.jpg": "/gun-bro-life/static/media/2017베스트사진.93dfb265.jpg",
     "static/media/2021년1월1-1.633ae23c.jpg": "/gun-bro-life/static/media/2021년1월1-1.633ae23c.jpg",
@@ -219,7 +219,7 @@
   "entrypoints": [
     "static/js/runtime-main.082d4bea.js",
     "static/js/2.97a41a28.chunk.js",
-    "static/css/main.efff14f4.chunk.css",
+    "static/css/main.d8bcc32a.chunk.css",
     "static/js/main.0393ceb3.chunk.js"
   ]
 }
