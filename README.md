@@ -4,4 +4,4 @@
 
 ## 2. 웹을 어떻게 구성할지 고민하면서 만들기
 
-## 3. https://0-ho98.github.io/gun-bro-life/#/
+## 3. https://gun-bro98.github.io/gun-bro-life/#/
